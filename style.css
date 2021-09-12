@@ -56,16 +56,78 @@ a:hover {
 
 img {
     object-fit: cover;
+}
+
+.introdustypic {
+    float: right;
     width: 300px;
     border: 10px solid #ffae00;
     border-radius: 20%;
+    margin: 0 0 20px 50px;
+}
+
+.intromepic {
     float: left;
+    width: 300px;
+    border: 10px solid #ffae00;
+    border-radius: 20%;
     margin: 0 50px 20px 0;
 }
 
+.leftsidepic {
+    width: 150px;
+    height: 150px;
+    border: 8px solid #ffae00;
+    border-radius: 50%;
+    box-shadow: 0 0 20px #422708;
+    float: left;
+    margin: 0 40px 20px 0;
+}
+
 .rightsidepic {
+    width: 150px;
+    height: 150px;
+    border: 8px solid #ffae00;
+    border-radius: 50%;
+    box-shadow: 0 0 20px #422708;
     float: right;
-    margin: 0 0 20px 50px;
+    margin: 0 0 20px 40px;
+}
+
+div {
+    overflow: auto;
+    padding: 20px;
+}
+
+.hobby strong {
+    font-family: "Amatic SC", Camrbia;
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+.hobby {
+    margin-top: 30px;
+    max-width: 800px;
+    min-width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gallery {
+    text-indent: 0;
+    text-align: center;
+    margin: 5%;
+    padding: 22px;
+}
+
+.gallery img {
+    width: 32%;
+    height: 300px;
+    box-shadow: 0 0 20px #422708;
+    border: none;
+    border-radius: 2%;
+    float: none;
+    margin: 2px;
 }
 
 h1 {
@@ -84,7 +146,6 @@ h6 {
     text-align: center;
     margin: 0;
 }
-
 
 
 .menu {
@@ -106,6 +167,11 @@ h6 {
     padding: 20px 40px;
 }
 
+.menuactive {
+    background-color: #d68100;
+}
+
+
 .menu a:hover,
 .menu a:focus {
     background-color: #faa931;
@@ -114,6 +180,13 @@ h6 {
 
 li {
     list-style-position: inside;
+}
+
+.descrip {
+    margin-top: 0;
+    padding-bottom: 15px;
+    font-size: 16px;
+
 }
 
 .paticka {
