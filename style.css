@@ -5,7 +5,7 @@ body {
     font-family: Cambria;
     font-size: 20px;
     line-height: 1.5;
-    margin: 0
+    margin: 0;
 }
 
 
@@ -13,6 +13,18 @@ section {
     margin: 0;
     padding: 20px 15%;
     overflow: auto;
+    text-indent: 20px;
+    text-align: justify;
+}
+
+.contactsec {
+    text-align: center;
+}
+
+.odrazky {
+    text-align:left;
+    display: inline-block; 
+    margin-left: -50px;
 }
 
 .cover {
@@ -48,7 +60,12 @@ img {
     border: 10px solid #ffae00;
     border-radius: 20%;
     float: left;
-    margin: 0 20px 20px 0;
+    margin: 0 50px 20px 0;
+}
+
+.rightsidepic {
+    float: right;
+    margin: 0 0 20px 50px;
 }
 
 h1 {
@@ -94,6 +111,10 @@ h6 {
     background-color: #faa931;
 }
 
+
+li {
+    list-style-position: inside;
+}
 
 .paticka {
     background-color: #e78d06;
